@@ -1,0 +1,17 @@
+def DNA_strand(dna):
+    # code here
+    new_dna = ""
+    for i in range(0,len(dna)):
+        if dna[i] == "T":
+            new_dna += "A"
+            
+        if dna[i] == "A":
+            new_dna += "T"
+            
+        if dna[i] == "C":
+            new_dna += "G"
+            
+        if dna[i] == "G":
+            new_dna += "C"
+            
+    return new_dna          
